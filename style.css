@@ -89,6 +89,12 @@ a {
 
 /*   HE A D E R  */
 
+header{
+    background-image: url(./img/headerfon.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+
 .header_box{
     padding-top: 111px;
     display: flex;
