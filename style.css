@@ -1,11 +1,14 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .container{
-    width: 1140px;
+    width: 100%;
+    max-width: 1432px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 
@@ -20,59 +23,6 @@ a{
 .nav{
     display: flex;
     justify-content: space-between;
-} */
+} 
 
 
-/* styles.css */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 10px 20px;
-    border-bottom: 2px solid lightgray;
-}
-
-.container{
-    width: 1140px;
-    margin: 0 auto;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 30px;
-    margin-right: 8px;
-}
-
-.menu {
-    display: flex;
-    gap: 20px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.signup button {
-    background-color: #D4B7A4; /* Light brown color */
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.signup button:hover {
-    background-color: #C29C8C; /* Slightly darker shade on hover */
-}
