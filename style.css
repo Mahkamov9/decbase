@@ -117,7 +117,7 @@ header{
     margin-top: 20px;
 }
 
-.hedaer_subtext{
+.header_subtext{
     font-size: 18px;
     line-height: 30px;
     color: #646464;
@@ -140,4 +140,182 @@ header{
 
 .header_btn:hover{
     background-color: #266d59;
+}
+
+
+
+/* SERVICE */
+
+.service_box{
+    padding-top: 111px;
+}
+
+.service_title{
+    color: #646464;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.service_subtitle{
+    font-size: 72px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 78px;
+    margin-top: 20px;
+}
+
+.arrow_pagination{
+    display: flex;
+    justify-content: end;
+    padding: 15px 0px;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.service_swipper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20;
+}
+
+.service_card{
+    border-radius: 60px 0px 60px 0px;
+    max-width: 450px;
+    max-height: 193px;
+    display: flex;
+    box-shadow: 0px 8px 20px 0px #00000024;
+    background-color: #fff;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 5px; 
+   
+}
+
+.service_card2{
+    background-color: #caa892;
+    color: white;
+
+}
+
+.service_card_img{
+    margin: 20px 40px;
+}
+
+.service_card_title{
+    margin: 5px 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.service_card_text {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+
+
+}
+
+
+
+/* ABOUT */
+
+about{
+    background-image: url(./img/aboutfon.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+}
+
+.about_box{
+    padding-top: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_right{
+    padding: 0px 50px;
+}
+
+.about_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #646464;
+}
+
+.about_text{
+    font-size: 72px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 78px;
+    margin-top: 20px;
+}
+
+.about_subtext{
+    font-size: 18px;
+    line-height: 30px;
+    color: #646464;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.about_btn{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #37806b;
+    border-radius: 20px 0px 20px 0px;
+    width: 142.15px;
+    height: 42.81px;
+    margin-top: 20px;
+}
+
+.about_btn:hover{
+    background-color: #266d59;
+}
+
+
+
+
+
+
+/* SECTION  */
+
+.section_box{
+    padding-top: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_btn{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #37806b;
+    border-radius: 20px 0px 20px 0px;
+    width: 142.15px;
+    height: 42.81px;
+    margin-top: 20px;
+}
+
+.section_nuber{
+    font-size: 288px;
+    font-weight: 700;
+    color: transparent;
+    background-image: url("./img/texture.jpg");
+    background-size: contain;
+    background-clip: text;
 }
